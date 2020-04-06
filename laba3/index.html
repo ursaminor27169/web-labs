@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>third laba</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+</head>
+<body>
+    <header class="start-and-end">
+      <div class="logo">
+        <span>StopCOVID19 </span><div></div>
+      </div>
+      <ul class="menu">
+        <li><a href="#main">главная</a></li>
+        <li><a href="#symptoms">симптомы</a></li>
+        <li><a href="#safety">как защититься</a></li>
+      </ul>
+    </header>
+    <div class="block what-is-it" id="main">
+      <h1 class="mega-text">Коронавирус. Что это?</h1>
+      <p class="mini-text">Коронавирус — это возбудитель ОРВИ, при котором отмечается выраженная интоксикация организма и проблемы с дыхательной и пищеварительной системами.</p>
+      <h2 class="mega-middle-text">Как передается коронавирус?</h2>
+      <ul>
+        <li>
+          <div class="yellow-circle"></div>
+          <p class="middle-text">воздушно-капельным путём (при кашле, чихании, разговоре)</p>
+        </li>
+        <li>
+          <div class="yellow-circle"></div>
+          <p class="middle-text">воздушно-пылевым путём (с пылевыми частицами в воздухе)</p>
+        </li>
+        <li>
+          <div class="yellow-circle"></div>
+          <p class="middle-text">контактно-бытовым путём (через рукопожатия, предметы обихода)
+          </p>
+        </li>
+      </ul>
+    </div>
+    <div class="block symptoms" id="symptoms">
+      <h1 class="mega-text">Симптомы коронавируса</h1>
+      <div class="container-4-symptoms">
+        <div class="all-symptoms">
+          <div class="symptom">
+            <div class="blue-circle"></div>
+            <p class="middle-mega-text">сухой кашель</p>
+          </div>
+          <div class="symptom">
+            <div class="blue-circle"></div>
+            <p class="middle-mega-text">высокая температура тела</p>
+          </div>
+        </div>
+        <div class="all-symptoms">
+          <div class="symptom">
+            <div class="blue-circle"></div>
+            <p class="middle-mega-text">утомляемость</p>
+          </div>
+          <div class="symptom">
+            <div class="blue-circle"></div>
+            <p class="middle-mega-text">отдышка</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="block safety" id="safety">
+      <h1 class="mega-text">Как защитить себя?</h1>
+      <ul>
+        <li>
+          <div class="yellow-circle"></div>
+          <p class="middle-text">не посещайте общественные места</p>
+        </li>
+        <li>
+          <div class="yellow-circle"></div>
+          <p  class="middle-text">не касайтесь грязными руками  своего лица</p>
+        </li>
+        <li>
+          <div class="yellow-circle"></div>
+          <p  class="middle-text">тщательно мойте руки с мылом</p>
+        </li>
+        <li>
+          <div class="yellow-circle"></div>
+          <p  class="middle-text">дезинфицируйте телефон по возвращению домой</p>
+        </li>
+        <li>
+          <div class="yellow-circle"></div>
+          <p  class="middle-text">при появлении первых симптомов сразу обращайтесь к врачу</p>
+        </li>
+      </ul>
+      <br>
+      <form>
+        <button class="btn btn-warning" type="button" onClick="GoUrl('https://стопкоронавирус.рф/')">стопкоронавирус.рф</button>
+      </form>
+      </div>
+    <footer class="start-and-end">
+      <div class="logo animated pulse infinite">
+        <span>StopCOVID19 </span><div></div>
+      </div>
+    </footer>
+    <script src="css3-mediaqueries.min.js"></script>
+    <script>
+      function GoUrl(url){
+        location.href=url;
+      }
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
