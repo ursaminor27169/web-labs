@@ -1,0 +1,55 @@
+.mega-text {
+    font-size: 27px;
+}
+
+.mini-text {
+    font-size: 15px;
+}
+
+.mega-middle-text {
+    font-size: 23px;
+}
+
+.middle-text {
+    font-size: 17px;
+}
+
+.middle-mega-text {
+    font-size: 17px;
+}
+
+.start-and-end {
+    display: none;
+}
+
+.block {
+    padding: 1.5cm 1.5cm 0;
+}
+
+.what-is-it {
+    page-break-inside: avoid;
+    page-break-after: avoid;
+}
+
+.symptoms {
+    page-break-inside: avoid;
+    page-break-after: auto;
+}
+
+.safety {
+    page-break-inside: avoid;
+    page-break-after: avoid;
+}
+
+form {
+    display: none;
+}
+
+.blue-circle, .yellow-circle {
+    display: none;
+}
+@media (min-width: 768px) {
+    .container-4-symptoms {
+        justify-content: space-around;
+    }
+}
