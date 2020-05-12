@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Raleway, sans-serif;
+  }
+
+  body {
+      width: 100%;
+  }
+  
+  ul { 
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  h2, h3 {
+    margin: 0;
+  }
+  
+  a {
+    text-decoration: none !important;
+  }
+
+  button {
+    border-width: 0px;
+    cursor: pointer;
+  }
+
+  .mega-text {
+      font-size: 20px;
+      font-weight: bold;
+      line-height: 41px;
+  }
+
+  .mega-middle-text {
+      font-size: 16px;
+      font-weight: bold;
+      line-height: 41px;
+  }
+
+  .middle-mega-text {
+      font-size: 16px;
+  }
+
+  .middle-text {
+      font-size: 14px;
+  }
+
+  .mini-text {
+      font-size: 12px;
+  }
+
+
+header {
+    padding: 0 65px;
+    justify-content: center;
+}
+
+.start-and-end {
+    width: 100%;
+    height: 75px;
+    background-color: #0F1928;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    display: flex;    
+    align-items: center;
+}
+
+.logo span {
+    font-size: 24px;
+}
+
+.logo div {
+    width: 10px;
+    height: 10px;
+    background: #00ADB5;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+.menu {
+    display: none;
+}
+
+.block {
+    padding: 50px 10% 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.what-is-it > p {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.block ul {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.block ul li {
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+}
+
+.block ul li p {
+    width: 80%;
+}
+
+.yellow-circle {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #F8B500;
+    margin-right: 20px;
+}
+
+.symptoms {
+    background-color: #FFD563;
+}
+
+.symptoms-container-4 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: column;
+}
+
+.symptoms-all {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.symptom {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.blue-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #00ADB5;
+    margin-right: 20px;
+}
+
+table {
+    margin-top: 50px;
+    border-collapse: collapse;
+}
+
+caption {
+    margin-bottom: 15px;
+}
+
+th, td {
+    border: 1px solid #F8B500;
+    padding: 10px;
+}
+
+.mailing {
+    background-color: #FFD563;
+}
+
+.mailing p {
+    margin-top: 35px;
+}
+
+.mailing form {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mailing input {
+    margin: 15px;
+    height: 40px;
+    width: 350px;
+    padding: 10px 15px;
+}
+
+.mailing form button {
+    padding: 10px;
+    background-color: #00ADB5;
+    color: #fff;
+}
+
+.mailing form button:hover, .mailing form button:focus {
+    background-color: rgb(0, 199, 209);
+}
+
+.mailing form button:active {
+    background-color: rgb(0, 129, 136);
+}
+
+footer {
+    justify-content: center;
+}
+
+@media (min-width: 500px) {
+    .mega-text {
+        font-size: 35px;
+        font-weight: bold;
+        line-height: 41px;
+    }
+  
+    .mega-middle-text {
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 41px;
+    }
+  
+    .middle-mega-text {
+        font-size: 20px;
+    }
+  
+    .middle-text {
+        font-size: 18px;
+    }
+  
+    .mini-text {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 768px) {
+
+    header {
+        justify-content: space-between;
+    }
+
+    .menu {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 50%;
+    }
+
+    .menu a{
+        color: white;
+        font-size: 18px;
+    }
+
+    .menu li:hover a {
+        color: #F8B500;
+    }
+
+    .menu li:active a {
+        color: #FFD563;
+    }
+
+    .block {
+        padding: 50px 15% 50px;
+    }
+
+    .block ul li p {
+        width: 100%;
+    }
+
+    .container-4-symptoms {
+        flex-direction: row;
+    }
+
+}
+
+@media (min-width: 1024px) {
+    .menu {
+        width: 35%;
+    }
+
+    .block {
+        padding: 50px 20% 50px;
+    }
+}
